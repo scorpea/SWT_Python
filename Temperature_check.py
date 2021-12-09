@@ -8,7 +8,7 @@
 # print "it's a cold day"
 # otherwise
 # print "it's neither hot nor cold"
-#-----------------------------
+
 
 print("Daily Temperature Check")
 tempf = input("Enter Temperature in °F:- ")
