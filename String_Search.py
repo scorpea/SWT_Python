@@ -35,6 +35,3 @@ for i in range(0,space_num):
         print(strdigit)
     searchstr = searchstr[space_detect.start() + 1:]
 
-
-
-
