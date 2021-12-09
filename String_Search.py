@@ -23,11 +23,25 @@ x = re.findall("\d", searchstr)
 print(x)
 
 # my reasoning
-n = ""
+strlen = len(searchstr)
+print(strlen)
+
+sp = re.search("\s", searchstr)
+print("")
+print("The first white-space character is located in position:", sp.start())
+
+# count the spaces
+x1 = searchstr.count(" ")
+print("")
+print("Number of space available are ",x1)
+
+nums = ""
 for i in searchstr:
-    if i == " ":
-        n = n + i
-        print(n)
+    if i.isdigit() and i != "\s":
+        nums = nums + i
+        print(nums)
+
+
 #    print(i,end="")
 
 #
