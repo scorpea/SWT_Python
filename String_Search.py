@@ -1,8 +1,6 @@
 #String search
 import re
 
-#•	Extract the non-repeated phrase and print to the terminal
-
 str1 = "What is the main reason for leaving? 21 Happy Easter Holidays 40 All the men here are just not understanding the "
 str2 = "situation Happy Easter Holidays 50 In what ways can I help you Happy Easter Holidays You better learn how to be "
 str3 = "polite 100 Happy Easter Holidays OMG that food is looking really great Happy Easter Holidays 100 800 900"
