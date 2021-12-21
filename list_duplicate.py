@@ -8,4 +8,4 @@ for num in duplicate:
 
 print("Ordinary List " + str(duplicate))
 print("")
-print("After duplication removal "+ str(new_list))
+print("After duplication removal " + str(new_list))
