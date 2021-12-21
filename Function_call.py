@@ -1,7 +1,6 @@
 # Python Program that calls a function to add, subtreact, multiply and divide numbers
 # w,x,y,z = input("Enter values for 4 numbers separating with a space ").split()
 
-
 # Addition Function Defined
 def numb_add(numb):
    try:
