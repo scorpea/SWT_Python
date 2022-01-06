@@ -33,7 +33,7 @@ try:
             year = 7
             m_year = year * 12
         print("")
-        print("Your monthly Payment for", '{:,.2f}kr'.format(loan_amt), "at", str(int_rate) + "% for", year, "years is",'{:,.2f}kr'.format(stud_loan(loan_amt,interest,m_year)))
+        print("Your monthly Payment for", '{:,.2f}kr'.format(loan_amt), "loan at", str(int_rate) + "% for", year, "years is",'{:,.2f}kr'.format(stud_loan(loan_amt,interest,m_year)))
     elif inc_check.upper() == "N":
        print("Sorry, you are not eligible for a loan")
     else:
