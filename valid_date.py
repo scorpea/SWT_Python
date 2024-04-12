@@ -13,14 +13,15 @@ def check_date(y, m, d):
     return cdate
 
 #Main Program
-import datetime
 from datetime import *
 dtime = datetime.now().strftime("%a %Y-%m-%d %H:%M %p")
 print("W E L C O M E   T O   A R N Y   D A T E   C H E C K I N G   S Y S T E M")
 print(dtime)
 print("")
-hours = 4
-ctime = datetime.
+ctime = datetime.time(datetime.now() + timedelta(hours=10))
+otime = time
+
+print(ctime)
 try:
     y,m,d = input("Enter the date of departure (yyyy-mm-dd):- ").split("-")
     edate = date(int(y), int(m), int(d))

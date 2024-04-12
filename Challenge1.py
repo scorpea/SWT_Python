@@ -15,22 +15,22 @@ wpound = float(weigh) // 0.45
 todays_date = date.today()
 
 # fetching the current year
-cyear =  todays_date.year
+cyear = todays_date.year
 age = cyear - int(byear)
 
-if sex.upper() == 'M' :
+if sex.upper() == 'M':
     s1 = 'He'
     sex = 'Male'
-else :
+else:
     s1 = 'She'
     sex = 'Female'
 
 print('First Name: ', fname)
 print('Last Name: ', lname)
-print('Address: ',addr)
-print('Weight in Kg:',weigh)
-print('Age:',age)
+print('Address: ', addr)
+print('Weight in Kg:', weigh)
+print('Age:', age)
 print('Nationality:', nation)
 print('Sex:', sex)
 
-print(fname, lname,'lives at', addr+'.',s1, 'weighs',int(wpound), 'in pounds and',weigh, 'in kg.',s1, 'comes from', nation)
+print(fname, lname, 'lives at', addr+'.', s1, 'weighs', int(wpound), 'in pounds and', weigh, 'in kg.', s1, 'is', nation)
